@@ -1,0 +1,34 @@
+- project:
+  title: Person Re-Identification
+  link: https://github.com/hashknot/person-reid
+  tagline: "<ul>
+                <li>Used Convolutional Neural Networks to identify same individual's photos from two vantage points.</li>
+                <li>Devised new image similarity identification technique to improve existing accuracy.</li>
+                <li>Technologies: Python, TensorFlow.</li>
+            </ul>"
+- project:
+  title: KDD Cup 2016
+  link: ''
+  tagline: "<ul>
+                <li>Predicted the relevance of an academic institution based on Microsoft Academic Graph data.</li>
+                <li>Used Gradient Boosted Decision Trees, Ranked SVM to make predictions.</li>
+                <li>Technologies: Python, Google Big Query, Bash.</li>
+            </ul>"
+- project:
+  title: Stashbin
+  link: https://labs.jite.sh/stashbin
+  tagline: Pastebin for files. Python, Flask, MongoDB.
+
+- project:
+  title: Swallow
+  link: https://github.com/hashknot/swallow
+  tagline: "Wallpaper utility overlaying quote of the day on a picture of the day fetched from the web. Python."
+
+- project:
+  title: Pricewatch
+  tagline: "Python tool that notifies the user when an Amazon.com wishlisted item's price is updated."
+
+- project:
+  title: Indexy
+  link: https://github.com/hashknot/indexy
+  tagline: Light-weight library for pretty web directory listing. PHP, HTML, CSS.

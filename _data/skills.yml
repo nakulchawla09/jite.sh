@@ -1,0 +1,15 @@
+- skill:
+  name: Python, Django
+  level: 98%
+- skill:
+  name: Java, C++, C, Shell
+  level: 80%
+- skill:
+  name: JavaScript, PHP
+  level: 70%
+- skill:
+  name: Git, Gerrit, SQL
+  level: 85%
+- skill:
+  name: Docker, Elasticsearch, MongoDB
+  level: 70%
