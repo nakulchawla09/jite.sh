@@ -12,10 +12,19 @@
   {% for project in site.data.projects %}
     <div class="item">
 
-      <span class="project-title"><a href="{{ project.link }}">{{ project.title }}</a></span>
+      {% if project.title_right %}
+      <div class='per-project-title dotted-line'>
+      {% else %}
+      <div class='per-project-title'>
+      {% endif %}
+          <span style='padding-right: 2px'><strong>{{ project.title }}</strong></span>
+          {% if project.title_right %}
+          <span style='padding-left: 5px;float:right'>{{ project.title_right }}</span>
+          {% endif %}
+      </div>
 
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      <div class="project-tagline">{{ project.tagline }}</div>
       {% endif %}
 
     </div><!--//item-->

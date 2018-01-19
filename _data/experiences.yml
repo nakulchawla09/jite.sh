@@ -1,42 +1,62 @@
 - experience:
   role: Software Developer
   time: 02/2017 - Present
-  company: "<a href='#'>Digital Innovation Group, Arizona State University</a>"
-  details: "<ul>
-                <li>Contributed to text corpus analysis Python project titled <a href='https://github.com/diging/tethne'>Tethe</a>.</li>
-                <li>Developed and managed Python Django project titled <a href='https://amphora.asu.edu/amphora/'>Amphora</a>.
-                    Identified and fixed performance bottlenecks.</li>
-                <li>Indexed corpora of science journals in Elasticsearch. Performed text analysis of corpora.</li>
-                <li>Technologies: Python, Django, Celery-Redis, Elasticsearch, NLTK.</li>
-            </ul>"
+  company: "Digital Innovation Group, Arizona State University"
+  projects:
+
+      - title_left: "Amphora &mdash; <em>A lightweight digital repository for corpus analysis</em>"
+        title_right: "<a href='https://github.com/diging/amphora'>GitHub</a>"
+        details:
+            - "Added RESTful API endpoints."
+            - "Fixed bugs associated with resource authorizations. Identified and fixed SQL performance bottlenecks."
+            - "Wrote Celery tasks handling the processing of resources."
+            - "Wrote Ansible scripts for managing the deployed instance."
+            - "<em>Technologies</em>: Python, Django, Celery, Ansible, Supervisor, Postgres"
+
+      - title_left: 'JSTOR DfR'
+        details:
+            - "Indexed JSTOR Data for Research corpora in Elasticsearch."
+            - "Performed Named Entity Recognition using NLTK, Stanford NLP Package."
+            - "Technologies: Python, Elasticsearch, NLTK"
+
+      - title_left: 'SirIsaac &mdash; <em>Automated dynamical systems inference </em>'
+        title_right: "<a href='https://github.com/hashknot/SirIsaac'>GitHub</a>"
+        details:
+            - "Restructured package to be better suited for installation and distribution through setuptools."
+            - "<em>Technologies</em>: Python, Setuptools"
+
+      - title_left: 'Tethne &mdash; <em>Python project for bibliographic network analysis.</em>'
+        title_right: "<a href='https://github.com/diging/tethne'>GitHub</a>"
+        details:
+            - "Added support for exporting corpus to Pandas DataFrames."
+            - "Added documentation for all classes and modules."
+            - "<em>Technologies</em>: Python, Pandas."
+
 - experience:
   role: Software Intern
   time: 05/2017 - 08/2017
   company: NVIDIA HQ, Santa Clara, CA
-  details: "<ul>
-                <li>Designed Machine Learning system estimating OS build times based on build config and time of the day/week</li>
-                <li>Established streaming data pipeline connecting Elasticsearch and the ML system</li>
-                <li>Experimented with Deep Neural Networks, Decision Trees, Regression methods to achieve best results.</li>
-                <li>Technologies: Python, Sklearn, Pandas, TensorFlow, Docker, Elasticsearch.</li>
-            </ul>"
+  details:
+      - "Designed Machine Learning system estimating OS build times based on build config and time of the day/week."
+      - "Established streaming data pipeline connecting Elasticsearch and the ML system"
+      - "Experimented with Deep Neural Networks, Decision Trees, Regression methods to achieve best results."
+      - "<em>Technologies</em>: Python, xgboost, sklearn, Pandas, TensorFlow, Docker, Elasticsearch."
+
 - experience:
   role: System Software Engineer
   time: 07/2013 - 07/2016
   company: NVIDIA, Pune, India
-  details: "<ul>
-                <li>Project Orb
-                    <ul>
-                        <li>Developed system facilitating communication between Linux OS and various mobile OSes.</li>
-                        <li>Designed a plugin architecture around the system to support third-party development.</li>
-                        <li>Established infrastructure supporting pip, debian based installations of the system.</li>
-                        <li>Technologies: Python, Bash.</li>
-                    </ul>
-                </li>
-                <li>Tintin
-                    <ul>
-                        <li>Designed system supporting free-text, schema-independent search on multiple large MySQL databases.</li>
-                        <li>Reduced typical SQL based search times from tens of seconds per search query to milliseconds.</li>
-                        <li>Technologies: Java, JSP, SQL, Bash.</li>
-                    </ul>
-                </li>
-            </ul>"
+  projects:
+
+      - title_left: "Project Orb"
+        details:
+          - "Developed system facilitating communication between Linux OS and various mobile OSes."
+          - "Designed a plugin architecture around the system to support third-party development."
+          - "Established infrastructure supporting pip, debian based installations of the system."
+          - "<em>Technologies</em>: Python, Bash."
+
+      - title_left: "Tintin"
+        details:
+          - "Designed system supporting free-text, schema-independent search on multiple large MySQL databases."
+          - "Reduced typical SQL based search times from tens of seconds per search query to milliseconds."
+          - "<em>Technologies</em>: Java, JSP, SQL, Bash."

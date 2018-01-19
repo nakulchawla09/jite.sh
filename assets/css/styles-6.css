@@ -215,11 +215,12 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: #7D7D7D;
 }
 .main-wrapper .company {
-  margin-bottom: 10px;
-  color: #97AAC3;
+  margin-bottom: 5px;
+  color: #7D7D7D;
+  font-weight: 500;
 }
 .main-wrapper .project-title {
   font-size: 16px;
@@ -311,3 +312,54 @@ used for profile image
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
+.dotted-line {
+    border-bottom: 1px dotted;
+}
+
+.emp-project-title span {
+    display:inline-block;
+    position:relative;
+    background:white;
+    bottom:-2px;
+    height:100%;
+    font-size: 14px;
+}
+
+.emp-project-title a {
+    display:inline-block;
+    position:relative;
+    background:white;
+    bottom:-2px;
+    height:100%;
+    font-size: 14px;
+}
+
+.per-project-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 2px;
+  bottom:-2px;
+}
+
+.per-project-title span {
+    display:inline-block;
+    position:relative;
+    background:white;
+    bottom:-2px;
+    height:100%;
+    font-size: 16px;
+}
+
+.per-project-title strong {
+    font-weight: 500;
+}
+
+.per-project-title a {
+    display:inline-block;
+    position:relative;
+    background:white;
+    bottom:-2px;
+    height:100%;
+    font-size: 16px;
+}

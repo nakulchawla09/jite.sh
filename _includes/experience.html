@@ -18,8 +18,36 @@
 
     {% if experience.details %}
     <div class="details">
-      <p>{{ experience.details }}</p>
+      <ul>
+        {% for line in experience.details %}
+          <li>{{ line }}</li>
+        {% endfor %}
+      </ul>
     </div><!--//details-->
+    {% endif %}
+
+    {% if experience.projects %}
+        <ul>
+            {% for project in experience.projects %}
+            <li>
+                {% if project.title_right %}
+                <div class='emp-project-title dotted-line'>
+                {% else %}
+                <div class='emp-project-title'>
+                {% endif %}
+                    <span style='padding-right: 2px'>{{ project.title_left }}</span>
+                    {% if project.title_right %}
+                    <span style='padding-left: 5px;float:right'>{{ project.title_right }}</span>
+                    {% endif %}
+                </div>
+                <ul>
+                    {% for line in project.details %}
+                        <li>{{ line }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
     {% endif %}
 
   </div><!--//item-->
