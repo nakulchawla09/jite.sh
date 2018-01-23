@@ -40,6 +40,8 @@
       - "Designed Machine Learning system estimating OS build times based on build config and time of the day/week."
       - "Established streaming data pipeline connecting Elasticsearch and the ML system"
       - "Experimented with Deep Neural Networks, Decision Trees, Regression methods to achieve best results."
+      - "Established streaming data pipeline connecting NVIDIA build systems and the ML system."
+      - "Wrote RESTful APIs supporting queries to the system."
       - "<em>Technologies</em>: Python, xgboost, sklearn, Pandas, TensorFlow, Docker, Elasticsearch."
 
 - experience:

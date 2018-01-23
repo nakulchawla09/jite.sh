@@ -5,11 +5,13 @@
                 <li>Used Convolutional Neural Networks to identify same individual's photos from two vantage points.</li>
                 <li>Devised new image similarity identification technique to improve existing accuracy.</li>
                 <li>Technologies: Python, TensorFlow.</li>
+                <li>Achieved state of the art accuracy of 86.2% on VIPeR dataset.</li>
             </ul>"
 - project:
   title: "KDD Cup 2016"
   tagline: "<ul>
                 <li>Predicted the relevance of an academic institution based on Microsoft Academic Graph data.</li>
+                <li>Generated statistical features by parsing and processing 120 GB of textual data.</li>
                 <li>Used Gradient Boosted Decision Trees, Ranked SVM to make predictions.</li>
                 <li>Technologies: Python, Google Big Query, Bash.</li>
             </ul>"
