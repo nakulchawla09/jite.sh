@@ -52,8 +52,10 @@
 
       - title_left: "Project Orb"
         details:
-          - "Developed system facilitating communication between Linux OS and various mobile OSes."
-          - "Designed a plugin architecture around the system to support third-party development."
+          - "Designed and developed Python SDK facilitating communication between a Linux/Windows Host and Android/Embedded-Linux/QNX/Chrome OS based target board."
+          - "Abstracted SSH/ADB/UART/Telnet/FTDI communication interfaces supporting command execution, file transfer, filesystem management, log monitoring, package installation, and power control."
+          - "Developed python libraries serving as wrappers over perforce and other internal tools/systems."
+          - "Wrote scripts supporting automated debian and setuptools package generation."
           - "Established infrastructure supporting pip, debian based installations of the system."
           - "<em>Technologies</em>: Python, Bash."
 
