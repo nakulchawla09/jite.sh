@@ -7,17 +7,19 @@
                 <li>Technologies: C++.</li>
                 <li></li>
             </ul>"
-# - project:
-#   title: "KDD Cup 2016"
-#   tagline: "<ul>
-#                 <li>Predicted the relevance of an academic institution based on Microsoft Academic Graph data.</li>
-#                 <li>Generated statistical features by parsing and processing 120 GB of textual data.</li>
-#                 <li>Used Gradient Boosted Decision Trees, Ranked SVM to make predictions.</li>
-#                 <li>Technologies: Python, Google Big Query, Bash.</li>
-#             </ul>"
-# - project:
-#   title: Stashbin
-#   title_right: '<a href="https://labs.jite.sh/stashbin">Web</a>/<a href="https://github.com/hashknot/stashbin">GitHub</a>'
+
+- project:
+  title: "KDD Cup 2016"
+  tagline: "<ul>
+                <li>Predicted the relevance of an academic institution based on Microsoft Academic Graph data.</li>
+                <li>Generated statistical features by parsing and processing 120 GB of textual data.</li>
+                <li>Used Gradient Boosted Decision Trees, Ranked SVM to make predictions.</li>
+                <li>Technologies: Python, Google Big Query, Bash.</li>
+            </ul>"
+
+- project:
+  title: Lamport Clocks
+  title_right: '<a href="https://github.com/thenakulchawla/lamport-clocks">GitHub</a>'
 #   tagline: Pastebin for files. Python, Flask, MongoDB.
 #
 # - project:

@@ -9,46 +9,39 @@
         details:
             - "Using the Bitcoin Unlimited implementation to add bloom filters and inverse bloom look table to the dash implementation."
             - "Adding Expedited blocks implementation to dash."
-#             - "Wrote Celery tasks handling the processing of resources."
-#             - "Wrote Ansible scripts for managing the deployed instance."
-#             - "<em>Technologies</em>: Python, Django, Celery, Ansible, Supervisor, Postgres"
-#
-#       - title_left: 'JSTOR DfR'
-#         details:
-#             - "Indexed JSTOR Data for Research corpora in Elasticsearch."
-#             - "Performed Named Entity Recognition using NLTK, Stanford NLP Package."
-#             - "Technologies: Python, Elasticsearch, NLTK"
-#
-#       - title_left: 'SirIsaac &mdash; <em>Automated dynamical systems inference </em>'
-#         title_right: "<a href='https://github.com/hashknot/SirIsaac'>GitHub</a>"
-#         details:
-#             - "Restructured package to be better suited for installation and distribution through setuptools."
-#             - "<em>Technologies</em>: Python, Setuptools"
-#
-#       - title_left: 'Tethne &mdash; <em>Python project for bibliographic network analysis.</em>'
-#         title_right: "<a href='https://github.com/diging/tethne'>GitHub</a>"
-#         details:
-#             - "Added support for exporting corpus to Pandas DataFrames."
-#             - "Added documentation for all classes and modules."
-#             - "<em>Technologies</em>: Python, Pandas."
-#
-# - experience:
-#   role: Software Intern
-#   time: 05/2017 - 08/2017
-#   company: NVIDIA HQ, Santa Clara, CA
-#   details:
-#       - "Designed Machine Learning system estimating OS build times based on build config and time of the day/week."
-#       - "Established streaming data pipeline connecting Elasticsearch and the ML system"
-#       - "Experimented with Deep Neural Networks, Decision Trees, Regression methods to achieve best results."
-#       - "Established streaming data pipeline connecting NVIDIA build systems and the ML system."
-#       - "Wrote RESTful APIs supporting queries to the system."
-#       - "<em>Technologies</em>: Python, xgboost, sklearn, Pandas, TensorFlow, Docker, Elasticsearch."
-#
-# - experience:
-#   role: System Software Engineer
-#   time: 07/2013 - 07/2016
-#   company: NVIDIA, Pune, India
-#   projects:
+
+- experience:
+  role: Research Assistant 
+  time: 08/2017 - 05/2018
+  company: Blockchain Research Lab, Arizona State University 
+  details:
+      - "Developed Dash-Simulator using Network Simulator 3 to help scale Dash to the next block propagation technique and block size with profitable orphan rates – dash-simulator"
+      - "Added Compact and xthin block propagation techniques to the dash-simulator."
+      - "Tested Normal, Compact and xthin for 750 (for better confidence interval) blocks each and published results with
+        orphan rates."
+
+- experience:
+  role: Co-founder, Director Research and Development 
+  time: 08/2017 - present
+  company: Blockchain Innovation Society 
+  details:
+      - "The non-profit aims at educating public on blockchains and forming an open platform for blockchain resources."
+
+- experience: 
+  role: Developer Business Intelligence
+  time: 07/2013 - 07/2016
+  company: Target Corporation India
+  projects:
+      - title_left: "Real Estate Database"
+        details:
+            - "Developed a full stack application"
+
+      - title_left: "Block Group Something"
+        details:
+            - "Data "
+            - "Implementing R-trees to index data for various locations"
+
+ 
 #
 #       - title_left: "Project Orb"
 #         details:
