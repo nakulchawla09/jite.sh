@@ -1,6 +1,6 @@
 # main text of home
-name: Jitesh Kamble
-bio: I love building things, preferably with code.
+name: Nakul Chawla 
+bio: I am a blockchain researcher at ASU.
 summary: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
     You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean
     commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient
@@ -12,7 +12,7 @@ description: My personal website
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.png
+picture: assets/images/profile.jpeg
 style: styles-6
 
 # If you want to include your resume, set to true
@@ -21,8 +21,8 @@ resume: true
 # resume-external: true
 resume-url: resume/
 
-url: https://jite.sh/
-title: Jitesh Kamble
+url: https://nakul.net/
+title: Nakul Chawla 
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -40,16 +40,16 @@ permalink: /:title/
 #   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-twitter: hashknot
-facebook: hashknot
-deviantart: hashknot
+twitter: thenakulchawla 
+# facebook: hashknot
+# deviantart: hashknot
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: hashknot
+linkedin: thenakulchawla 
 # youtube: myyoutube
 # spotify: myspotify
-github: hashknot
+github: thenakulchawla 
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
@@ -57,7 +57,7 @@ github: hashknot
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: io@jite.sh
+email: nakulchawla09@gmail.com 
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal

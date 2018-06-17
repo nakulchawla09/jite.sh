@@ -1,35 +1,35 @@
 - project:
-  title: Person Re-Identification
+  title: In-memory Spatial Database Indexes 
   title_right: '<a href="https://github.com/hashknot/person-reid">Github</a>'
   tagline: "<ul>
-                <li>Used Convolutional Neural Networks to identify same individual's photos from two vantage points.</li>
-                <li>Devised new image similarity identification technique to improve existing accuracy.</li>
-                <li>Technologies: Python, TensorFlow.</li>
-                <li>Achieved state of the art accuracy of 86.2% on VIPeR dataset.</li>
+                <li>Developed PR-Quadtrees to index the space for the in-memory database.</li>
+                <li>Improvised the space usage by approx. 40% by adding more points to one region of the quad tree.</li>
+                <li>Technologies: C++.</li>
+                <li></li>
             </ul>"
-- project:
-  title: "KDD Cup 2016"
-  tagline: "<ul>
-                <li>Predicted the relevance of an academic institution based on Microsoft Academic Graph data.</li>
-                <li>Generated statistical features by parsing and processing 120 GB of textual data.</li>
-                <li>Used Gradient Boosted Decision Trees, Ranked SVM to make predictions.</li>
-                <li>Technologies: Python, Google Big Query, Bash.</li>
-            </ul>"
-- project:
-  title: Stashbin
-  title_right: '<a href="https://labs.jite.sh/stashbin">Web</a>/<a href="https://github.com/hashknot/stashbin">GitHub</a>'
-  tagline: Pastebin for files. Python, Flask, MongoDB.
-
-- project:
-  title: Swallow
-  title_right: '<a href="https://github.com/hashknot/swallow">GitHub</a>'
-  tagline: "Wallpaper utility overlaying quote of the day on a picture of the day fetched from the web. Python."
-
-- project:
-  title: Pricewatch
-  tagline: "Python tool that notifies the user when an Amazon.com wishlisted item's price is updated."
-
-- project:
-  title: Indexy
-  title_right: '<a href="https://github.com/hashknot/indexy">GitHub</a>'
-  tagline: Light-weight library for pretty web directory listing. PHP, HTML, CSS.
+# - project:
+#   title: "KDD Cup 2016"
+#   tagline: "<ul>
+#                 <li>Predicted the relevance of an academic institution based on Microsoft Academic Graph data.</li>
+#                 <li>Generated statistical features by parsing and processing 120 GB of textual data.</li>
+#                 <li>Used Gradient Boosted Decision Trees, Ranked SVM to make predictions.</li>
+#                 <li>Technologies: Python, Google Big Query, Bash.</li>
+#             </ul>"
+# - project:
+#   title: Stashbin
+#   title_right: '<a href="https://labs.jite.sh/stashbin">Web</a>/<a href="https://github.com/hashknot/stashbin">GitHub</a>'
+#   tagline: Pastebin for files. Python, Flask, MongoDB.
+#
+# - project:
+#   title: Swallow
+#   title_right: '<a href="https://github.com/hashknot/swallow">GitHub</a>'
+#   tagline: "Wallpaper utility overlaying quote of the day on a picture of the day fetched from the web. Python."
+#
+# - project:
+#   title: Pricewatch
+#   tagline: "Python tool that notifies the user when an Amazon.com wishlisted item's price is updated."
+#
+# - project:
+#   title: Indexy
+#   title_right: '<a href="https://github.com/hashknot/indexy">GitHub</a>'
+#   tagline: Light-weight library for pretty web directory listing. PHP, HTML, CSS.
