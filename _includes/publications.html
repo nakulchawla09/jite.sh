@@ -1,7 +1,7 @@
 {% if site.data.publications %}
 <section class="section publications-section">
 
-  <h2 class="section-title"><i class="fa fa-archive"></i>publications</h2>
+  <h2 class="section-title"><i class="fa fa-archive"></i>Publications</h2>
 
   {% for intro in site.data.publications %}
   <div class="intro">
@@ -13,9 +13,9 @@
     <div class="item">
 
       {% if publication.title_right %}
-      <div class='per-publication-title dotted-line'>
+      <div class='per-project-title dotted-line'>
       {% else %}
-      <div class='per-publication-title'>
+      <div class='per-project-title'>
       {% endif %}
           <span style='padding-right: 2px'><strong>{{ publication.title }}</strong></span>
           {% if publication.title_right %}
@@ -24,7 +24,7 @@
       </div>
 
       {% if publication.tagline %}
-      <div class="publication-tagline">{{ publication.tagline }}</div>
+      <div class="project-tagline">{{ publication.tagline }}</div>
       {% endif %}
 
     </div><!--//item-->
