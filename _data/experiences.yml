@@ -1,6 +1,23 @@
 - experience:
+  role: Blockchain Engineer
+  time: 01/2019 - Present
+  company: "IBM Blockchain - Worldwire "
+
+- experience:
+  role: Graduate Service Assistant 
+  time: 08/2018 - 12/2018 
+  company: "Arizona State University"
+  projects:
+
+      - title_left: "Thesis <em>Digital Fountain for Multi-node Aggregation of Data in Blockchains</em>"
+        # title_right: "<a href='https://github.com/thenakulchawla/dash'>GitHub</a>"
+        details:
+            - "Defended thesis, introducing and evaluating a new block propagation that utilizes rateless erasure codes in order to retrieve block data."
+            - "The study finds that this on dash blockchain the network will maintain consensun and remain profitable for miners block of sizes upto 650MB, and will make xthin/graphene/compact more capable for block propagation by aggregating block data from multiple nodes."
+
+- experience:
   role: Software Developer Intern
-  time: 05/2018 - Present
+  time: 05/2018 - 08/2018 
   company: "Dash Core Group"
   projects:
 
