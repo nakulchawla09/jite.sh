@@ -1,6 +1,6 @@
 # main text of home
-name: Nakul Chawla 
-bio: I am a blockchain researcher at ASU.
+name: Nakul Chawla
+bio: Blockchain researcher. Working currently at IBM Blockchain, Worldwire.
 summary: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
     You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean
     commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient
@@ -22,7 +22,7 @@ resume: true
 resume-url: resume/
 
 url: https://nakul.net/
-title: Nakul Chawla 
+title: Nakul Chawla
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
