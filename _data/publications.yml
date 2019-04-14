@@ -1,12 +1,24 @@
 - publication:
   title: "Block Propagation Applied to Nakamoto Network"
   title_right: '<a href="https://blockchain.asu.edu/block-propagation-applied-to-nakamoto-networks/">Link</a>'
+  tagline: "<ul>
+            <li> Compares the performance of Compact blocks and xThin blocks in the Dash network
+           </ul>"
 
 - publication:
-  title: "Velocity: Scalability Improvements in Block Propagation Through Rateless Erasure Coding"
+  title: "Velocity"
   title_right: '<a href="http://www.public.asu.edu/~hwbehren/papers/icbc-2019-velocity.pdf">Link</a>'
+  tagline: "<ul>
+            <li> Scalability Improvements in Block Propagation Through Rateless Erasure Coding
+            <li> Introduces a new protocol to relay block data by aggregating partial information from multiple peers.
+            <li> Introduces potential to relay block information over UDP networks.
+           </ul>"
 
 - publication:
   title: "Digital Fountain for Multi-Node Aggregation of Data in Blockchains"
   title_right: '<a href="https://search.proquest.com/openview/45c60bcf85c2a2bd22c1162a8bda3a63/1?pq-origsite=gscholar&cbl=18750&diss=y">Link</a>'
+  tagline: "<ul>
+            <li> Introduces a technique to relay block data by aggregating partial information from multiple peers.
+            <li> Introduces potential to relay block information over UDP networks.
+           </ul>"
 

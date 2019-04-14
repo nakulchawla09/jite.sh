@@ -40,16 +40,16 @@ permalink: /:title/
 #   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-twitter: thenakulchawla 
+twitter: thenakulchawla
 # facebook: hashknot
 # deviantart: hashknot
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: thenakulchawla 
+linkedin: thenakulchawla
 # youtube: myyoutube
 # spotify: myspotify
-github: thenakulchawla 
+github: thenakulchawla
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
@@ -57,7 +57,7 @@ github: thenakulchawla
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: nakulchawla09@gmail.com 
+email: nakulchawla09@gmail.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
