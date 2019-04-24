@@ -2,6 +2,11 @@
   role: Blockchain Engineer
   time: 01/2019 - Present
   company: "IBM Blockchain - Worldwire "
+  projects:
+    - title_left: "Sand Dollar"
+      details:
+        - "Working on research to figure out atomic swaps between stellar and bitcoin core"
+        - "Working on hyperledger fabric v2.0 alpha to figure out the use of Fabric tokens in digital exchange of assets on 2 different blockchains"
 
 - experience:
   role: Graduate Service Assistant 
@@ -10,10 +15,9 @@
   projects:
 
       - title_left: "Thesis <em>Digital Fountain for Multi-node Aggregation of Data in Blockchains</em>"
-        # title_right: "<a href='https://github.com/thenakulchawla/dash'>GitHub</a>"
         details:
             - "Defended thesis, introducing and evaluating a new block propagation that utilizes rateless erasure codes in order to retrieve block data."
-            - "The study finds that this on dash blockchain the network will maintain consensun and remain profitable for miners block of sizes upto 650MB, and will make xthin/graphene/compact more capable for block propagation by aggregating block data from multiple nodes."
+            - "The study finds that this on dash blockchain the network will maintain consensus and remain profitable for miners block of sizes upto 650MB, and will make xthin/graphene/compact more capable for block propagation by aggregating block data from multiple nodes."
 
 - experience:
   role: Software Developer Intern
@@ -24,8 +28,11 @@
       - title_left: "Graphene <em>Block propagation protocol</em>"
         title_right: "<a href='https://github.com/thenakulchawla/dash'>GitHub</a>"
         details:
+            - "Graphene utilizes bloom filters, inverted bloom look up tables and transaction order information to optimize block propagation"
             - "Using the Bitcoin Unlimited implementation to add bloom filters and inverse bloom look table to the dash implementation."
             - "Adding Expedited blocks implementation to dash."
+            - "Implementing RPC tests on dash core using ctypes and python binding for c++ for integration testing"
+            - "boost c++ tests for writing unit tests"
 
 - experience:
   role: Research Assistant 
@@ -34,8 +41,9 @@
   details:
       - "Developed Dash-Simulator using Network Simulator 3 to help scale Dash to the next block propagation technique and block size with profitable orphan rates – dash-simulator"
       - "Added Compact and xthin block propagation techniques to the dash-simulator."
-      - "Tested Normal, Compact and xthin for 750 (for better confidence interval) blocks each and published results with
+      - "Tested traditional, Compact and xthin for 750 (for better confidence interval) blocks each and published results with
         orphan rates."
+      - "Utilized above knowledge about propagation to design a new protocol that utilizes fountain codes to propagate blocks"
 
 - experience:
   role: Co-founder, Director Research and Development 
@@ -43,6 +51,7 @@
   company: Blockchain Innovation Society 
   details:
       - "The non-profit aims at educating public on blockchains and forming an open platform for blockchain resources."
+      - "Presentaions, lectures and paper discussions with students at ASU in order to help better understand blockchains"
 
 - experience: 
   role: Developer Business Intelligence
@@ -51,26 +60,13 @@
   projects:
       - title_left: "Real Estate Database"
         details:
-            - "Developed a full stack application"
+            - "Developed a full stack application using .Net, angularJs (1.3) and SQL server"
+            - "Date warehousing, design and ETL for the complete data from microsoft excel and Teradata to Microsoft SQL Server"
 
-      - title_left: "Block Group Something"
+      - title_left: "Block Group Assignment"
         details:
-            - "Data "
+            - "ETL, Sqoop data from Teradata to Hive"
             - "Implementing R-trees to index data for various locations"
+            - "Implemented Ray casting to understand location of users in order to understand the shopping pattern"
+            - "Utilized python, pandas dataframes, pyspark for all implementation and automation was done using shell scripts"
 
- 
-#
-#       - title_left: "Project Orb"
-#         details:
-#           - "Designed and developed Python SDK facilitating communication between a Linux/Windows Host and Android/Embedded-Linux/QNX/Chrome OS based target board."
-#           - "Abstracted SSH/ADB/UART/Telnet/FTDI communication interfaces supporting command execution, file transfer, filesystem management, log monitoring, package installation, and power control."
-#           - "Developed python libraries serving as wrappers over perforce and other internal tools/systems."
-#           - "Wrote scripts supporting automated debian and setuptools package generation."
-#           - "Established infrastructure supporting pip, debian based installations of the system."
-#           - "<em>Technologies</em>: Python, Bash."
-#
-#       - title_left: "Tintin"
-#         details:
-#           - "Designed system supporting free-text, schema-independent search on multiple large MySQL databases."
-#           - "Reduced typical SQL based search times from tens of seconds per search query to milliseconds."
-#           - "<em>Technologies</em>: Java, JSP, SQL, Bash."
