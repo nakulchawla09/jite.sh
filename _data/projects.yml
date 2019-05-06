@@ -8,7 +8,6 @@
                 <li>For MXCIF Quadtree, the leaf capacity was made configurable, in order to reduce the fan out on insertion of new data.</li>
                     <li>The approach overall boosted the space usage by approx. 40.</li>
                 <li>Technologies: C++.</li>
-                <li></li>
             </ul>"
 
 - project:
