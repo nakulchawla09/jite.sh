@@ -1,12 +1,22 @@
 - experience:
+  role: Senior Software Engineer - Blockchain
+  time: 09/2019 - Present
+  company: ""
+  projects:
+    - title_left: "Libracoin"
+      details:
+        - " "
+
+- experience:
   role: Blockchain Engineer
-  time: 01/2019 - Present
+  time: 01/2019 - 09/2019
   company: "IBM Blockchain - Worldwire "
   projects:
-    - title_left: "Sand Dollar"
+    - title_left: "Infrastructure"
       details:
-        - "Working on research to figure out atomic swaps between stellar and bitcoin core"
-        - "Working on hyperledger fabric v2.0 alpha to figure out the use of Fabric tokens in digital exchange of assets on 2 different blockchains"
+        - "Designing and implementing and deploying a microservice architecture for Worldwire using kubernetes, istio service mesh"
+        - "Automated complete deployment for all microservices and incorporated all states in a service deployed in google app engine"
+        - "Designed and implemented auth service for the client side authentication and authorization in golang."
 
 - experience:
   role: Graduate Service Assistant 
